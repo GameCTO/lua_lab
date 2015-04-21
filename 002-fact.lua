@@ -3,6 +3,11 @@ function fact(n)
 	return n * fact(n-1)
 end
 
+--[=[
+---[[
 print "Enter number:"
 num = io.read("*number")
 print(fact(num))
+--]]
+--print(fact(5))
+--]=]
